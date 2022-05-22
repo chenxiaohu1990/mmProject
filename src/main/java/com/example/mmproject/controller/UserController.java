@@ -5,6 +5,7 @@ import com.example.mmproject.pojo.user.User;
 import com.example.mmproject.userservice.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,7 +21,7 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    @GetMapping("/getUserInfo")
+    @PostMapping("/getUserInfo")
     public ResultVO getUserInfo(User user){
         return userService.getUserInfo(user);
     }
