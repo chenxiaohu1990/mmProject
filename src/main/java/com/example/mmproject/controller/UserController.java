@@ -1,5 +1,9 @@
 package com.example.mmproject.controller;
 
+import com.example.mmproject.pojo.common.ResultVO;
+import com.example.mmproject.pojo.user.User;
+import com.example.mmproject.userservice.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,8 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user")
 public class UserController {
 
+    @Autowired
+    UserService userService;
+
     @GetMapping("/getUserInfo")
-    public String getUserInfo(){
-        return "user";
+    public ResultVO getUserInfo(User user){
+        return userService.getUserInfo(user);
     }
 }

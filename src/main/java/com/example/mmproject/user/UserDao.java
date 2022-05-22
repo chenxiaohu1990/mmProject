@@ -1,6 +1,6 @@
 package com.example.mmproject.user;
 
-import com.mmss.mmservice.pojo.user.User;
+import com.example.mmproject.pojo.user.User;
 import org.springframework.stereotype.Repository;
 
 @Repository

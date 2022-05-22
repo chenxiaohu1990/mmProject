@@ -1,10 +1,10 @@
 package com.example.mmproject.userservice.impi;
 
-import com.mmss.mmservice.dao.user.UserDao;
-import com.mmss.mmservice.pojo.common.FieldUtils;
-import com.mmss.mmservice.pojo.common.ResultVO;
-import com.mmss.mmservice.pojo.user.User;
-import com.mmss.mmservice.service.userservice.UserService;
+import com.example.mmproject.pojo.common.FieldUtils;
+import com.example.mmproject.pojo.common.ResultVO;
+import com.example.mmproject.pojo.user.User;
+import com.example.mmproject.user.UserDao;
+import com.example.mmproject.userservice.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

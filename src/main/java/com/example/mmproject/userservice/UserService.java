@@ -1,7 +1,7 @@
 package com.example.mmproject.userservice;
 
-import com.mmss.mmservice.pojo.common.ResultVO;
-import com.mmss.mmservice.pojo.user.User;
+import com.example.mmproject.pojo.common.ResultVO;
+import com.example.mmproject.pojo.user.User;
 
 /**
  * @author 陈小虎
