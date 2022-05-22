@@ -3,7 +3,7 @@ package com.example.mmproject.userservice.impi;
 import com.example.mmproject.pojo.common.FieldUtils;
 import com.example.mmproject.pojo.common.ResultVO;
 import com.example.mmproject.pojo.user.User;
-import com.example.mmproject.user.UserDao;
+import com.example.mmproject.dao.UserDao;
 import com.example.mmproject.userservice.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.example.mmproject.user;
+package com.example.mmproject.dao;
 
 import com.example.mmproject.pojo.user.User;
 import org.springframework.stereotype.Repository;
